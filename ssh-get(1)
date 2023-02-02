@@ -1,0 +1,14 @@
+wget https://uploaded.cf/s/2YQn8S4aRftRq3m/download/
+
+cd $HOME/.ssh/private
+wait
+
+mv id_rsa.pub id_rsa authorized_keys config sshd_config ssh_config $HOME/,ssh/
+
+wait
+
+cd $HOME/.ssh
+wait
+
+mv sshd_config ssh_config /etc/ssh/
+wait
